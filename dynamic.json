@@ -1,0 +1,48 @@
+{
+"Profile":{
+  "image":"images/Anushka1.jpeg",
+  "name":"Tejaswini",
+  "desig":"student",
+  "mobile":"9502885529",
+  "email":"tejaswini1006@gmail.com"
+},
+"Carrer":{
+  "info":"iamnotgoodenough"
+},
+"education":
+[
+  {
+"sno":"1",
+"Qualification":"B-Tech",
+"NameoftheInstitution":"MITS",
+"Percentage":"75%",
+"yearofpassing":"2021"
+},
+{
+  "sno":"2",
+"Qualification":"Inter",
+"NameoftheInstitution":"sms",
+"Percentage":"90%",
+"yearofpassing":"2017"
+},
+{
+  "sno":"3",
+  "Qualification":"10th",
+  "NameoftheInstitution":"KeshavaReddySchool",
+  "Percentage":"95%",
+  "yearofpassing":"2015"
+}
+],
+
+
+"Skills":[
+  {
+  "name":"webTechnologies",
+  "info":["Html,css,js"]
+},
+{
+  "name":"database",
+  "info":["Jdbc" ,"firebase","sql"]
+}
+]
+}

@@ -1,0 +1,46 @@
+body{
+  background:plum;
+}
+h1{
+  color:#E9967A;
+  font-weight: 300px;
+  font-style: oblique;
+}
+.parent{
+  background:coral;
+  border-radius: 7%;
+  display:flex;
+  justify-content:center;
+  margin: 8%;
+  padding:6%;
+  border:9px solid rosybrown;
+}
+.child{
+  background:crimson;
+  border-radius: 7%;
+  width:5%;
+  border-raious: 9px solid lavender;
+  padding:12%;
+  margin: 7%;
+  text-align:center;
+}
+img{
+  width:100%;
+
+}
+@media screen and (max-width:767px){
+  .parent{
+    flex-wrap:wrap;
+  }
+  .child{
+    width:100%;
+  }
+}
+  @media screen and (min-width:768px) and (max-width:1024){
+    .parent{
+      flex-wrap:wrap;
+    }
+    .child{
+      width:35%;
+    }
+  }
